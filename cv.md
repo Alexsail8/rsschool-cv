@@ -30,3 +30,19 @@ Here are few technologies I work with:
 - Frontend: JavaScript, HTML5, CSS3, SASS, flex, grids,
   Bootstrap, Semantic UI.
 - Tools: Git/GitHub, Composer, Gulp, Postman, Adobe Photoshop.
+
+## Experience
+
+I worked as a
+
+- Beckend/Frontend Developer at Ginzzu, Moscow
+  10.2016 - till now
+- Frontend Developer at Kam-studio, Moscow
+  12.2015 - 10.2016
+
+## Education
+
+- 2018 Armavir State Pedagogical University, Armavir -
+  Manufacturing and entrepreneurship, Design, Vocational training (by industry)
+- 2014 NOU "INTERNATIONAL CENTER FOR VOCATIONAL EDUCATION" -
+  WEB - design Programming WEB - sites, Specialist in the development and support of WEB - sites
