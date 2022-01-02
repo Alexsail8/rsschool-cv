@@ -68,30 +68,30 @@ input[type=checkbox] {
   margin: 7px 15px;
 }
 </style>
-			<form action="">
-				<div class="checkbox-section nthColorLight">
-				<div class="checkbox-section_field">
-					<input type="checkbox" class="allcheckbox-js" name="allcheckbox" id="allcheckbox" placeholder="" data-name="allcheckbox" value="Выбрать всё"><label for="allcheckbox" class="label-inline label-inline-checkbox"><span>Выбрать всё</span></label>
-				</div>
+<form action="">
+  <div class="checkbox-section nthColorLight">
+    <div class="checkbox-section_field">
+      <input type="checkbox" class="allcheckbox-js" name="allcheckbox" id="allcheckbox" placeholder="" data-name="allcheckbox" value="Выбрать всё"><label for="allcheckbox" class="label-inline label-inline-checkbox"><span>Выбрать всё</span></label>
+    </div>
 
-				<div class="checkbox-section_field">
-  				<input type="checkbox" name="name1" data-name="allcheckbox" id="name1" placeholder="" value="Item 1">
-  				<label for="name1" class="label-inline label-inline-checkbox"><span>Item 1</span></label>
-				</div>
-				<div class="checkbox-section_field">
-  				<input type="checkbox" name="name2" data-name="allcheckbox" id="name2" placeholder="" value="Item 2">
-  				<label for="name2" class="label-inline label-inline-checkbox"><span>Item 2</span></label>
-				</div>
-				<div class="checkbox-section_field">
-  				<input type="checkbox" name="name3" data-name="allcheckbox" id="name3" placeholder="" value="Item 3">
-  				<label for="name3" class="label-inline label-inline-checkbox"><span>Item 3</span></label>
-				</div>
-				<div class="checkbox-section_field">
-  				<input type="checkbox" name="name4" data-name="allcheckbox" id="name4" placeholder="" value="Item 4">
-  				<label for="name4" class="label-inline label-inline-checkbox"><span>Item 4</span></label>
-				</div>
-				</div>
-			</form>
+    <div class="checkbox-section_field">
+      <input type="checkbox" name="name1" data-name="allcheckbox" id="name1" placeholder="" value="Item 1">
+      <label for="name1" class="label-inline label-inline-checkbox"><span>Item 1</span></label>
+    </div>
+    <div class="checkbox-section_field">
+      <input type="checkbox" name="name2" data-name="allcheckbox" id="name2" placeholder="" value="Item 2">
+      <label for="name2" class="label-inline label-inline-checkbox"><span>Item 2</span></label>
+    </div>
+    <div class="checkbox-section_field">
+      <input type="checkbox" name="name3" data-name="allcheckbox" id="name3" placeholder="" value="Item 3">
+      <label for="name3" class="label-inline label-inline-checkbox"><span>Item 3</span></label>
+    </div>
+    <div class="checkbox-section_field">
+      <input type="checkbox" name="name4" data-name="allcheckbox" id="name4" placeholder="" value="Item 4">
+      <label for="name4" class="label-inline label-inline-checkbox"><span>Item 4</span></label>
+    </div>
+  </div>
+</form>
 
 // multiple selection checkbox items
 $(document).on('change', 'input[type=checkbox]', function () {
