@@ -24,7 +24,7 @@
 
 Here are few technologies I work with:
 
-- Programming languages:
+- Programming languages: PHP, JavaScript
 - Backend: PHP 5.6/7+, MySql, OOP, Laravel, MVC, singleton,
   Ajax, API, XML, JSON.
 - Frontend: JavaScript, HTML5, CSS3, SASS, flex, grids,
