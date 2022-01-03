@@ -1,3 +1,39 @@
 @font-face{font-family:'MagistralC';font-style:normal;font-weight:400;src:url(../fonts/MagistralC/MagistralC.eot) format("embedded-opentype"),url(../fonts/MagistralC/MagistralC.woff) format("woff"),url(../fonts/MagistralC/MagistralC.ttf) format("truetype")}
 @font-face{font-family:'MyriadProRegular';font-style:normal;font-weight:400;src:url(../fonts/MyriadProRegular/MyriadProRegular.eot) format("embedded-opentype"),url(../fonts/MyriadProRegular/MyriadProRegular.woff) format("woff"),url(../fonts/MyriadProRegular/MyriadProRegular.ttf) format("truetype")}
 @font-face{font-family:'MyriadPro-Light';font-style:normal;font-weight:400;src:url(../fonts/MyriadPro-Light/MyriadPro-Light.eot) format("embedded-opentype"),url(../fonts/MyriadPro-Light/MyriadPro-Light.woff) format("woff"),url(../fonts/MyriadPro-Light/MyriadPro-Light.ttf) format("truetype")}
+
+body {margin: 0;}
+.header {
+  background-color: #1B1C1D;
+}
+.navigation {    
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+}
+.navigation__item {
+  padding: 7px 15px;
+}
+.navigation__item > a {
+  color: #fff; 
+  text-decoration: none;
+  font-family: 'MagistralC','MyriadProRegular','MyriadPro-Light',sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
