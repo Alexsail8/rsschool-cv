@@ -1,10 +1,66 @@
-@font-face{font-family:'MagistralC';font-style:normal;font-weight:400;src:url(../fonts/MagistralC/MagistralC.eot) format("embedded-opentype"),url(../fonts/MagistralC/MagistralC.woff) format("woff"),url(../fonts/MagistralC/MagistralC.ttf) format("truetype")}
-@font-face{font-family:'MyriadProRegular';font-style:normal;font-weight:400;src:url(../fonts/MyriadProRegular/MyriadProRegular.eot) format("embedded-opentype"),url(../fonts/MyriadProRegular/MyriadProRegular.woff) format("woff"),url(../fonts/MyriadProRegular/MyriadProRegular.ttf) format("truetype")}
-@font-face{font-family:'MyriadPro-Light';font-style:normal;font-weight:400;src:url(../fonts/MyriadPro-Light/MyriadPro-Light.eot) format("embedded-opentype"),url(../fonts/MyriadPro-Light/MyriadPro-Light.woff) format("woff"),url(../fonts/MyriadPro-Light/MyriadPro-Light.ttf) format("truetype")}
+@font-face{
+  font-family:'MagistralC';
+  font-style:normal;
+  font-weight:400;
+  src:url(../fonts/MagistralC/MagistralC.eot) format("embedded-opentype"),
+  url(../fonts/MagistralC/MagistralC.woff) format("woff"),
+  url(../fonts/MagistralC/MagistralC.ttf) format("truetype")
+}
+@font-face{
+  font-family:'MyriadProRegular';
+  font-style:normal;
+  font-weight:400;
+  src:url(../fonts/MyriadProRegular/MyriadProRegular.eot) format("embedded-opentype"),
+  url(../fonts/MyriadProRegular/MyriadProRegular.woff) format("woff"),
+  url(../fonts/MyriadProRegular/MyriadProRegular.ttf) format("truetype")
+}
+@font-face{
+  font-family:'MyriadPro-Light';
+  font-style:normal;
+  font-weight:400;
+  src:url(../fonts/MyriadPro-Light/MyriadPro-Light.eot) format("embedded-opentype"),
+  url(../fonts/MyriadPro-Light/MyriadPro-Light.woff) format("woff"),
+  url(../fonts/MyriadPro-Light/MyriadPro-Light.ttf) format("truetype")
+}
 
-body {margin: 0;}
+body {
+  margin: 0;
+  height: 100%;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 40px 0;
+}
+.h2, .h3 {
+  margin-bottom: 15px;
+  text-align: center; 
+  font-family: 'MyriadProRegular','MyriadPro-Light',sans-serif;
+}
+.h4 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 45px;
+}
+.h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+}
 .header {
   background-color: #1B1C1D;
+  margin-bottom: 40px;
+}
+.color-light-line {
+  height: 1px;
+  background-color:#779d40;
 }
 .navigation {    
   display: -ms-flexbox;
@@ -36,4 +92,85 @@ body {margin: 0;}
   font-family: 'MagistralC','MyriadProRegular','MyriadPro-Light',sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
+}
+
+.contact__title {
+    text-align: left;
+}
+.about__title {
+  text-align: center;
+}
+.contact__avatar {
+    box-shadow: rgb(67 84 43 / 40%) 5px 5px,
+     rgb(67 84 43 / 30%) 10px 10px,
+     rgb(67 84 43 / 20%) 15px 15px, 
+     rgb(67 84 43 / 10%) 20px 20px, 
+     rgb(67 84 43 / 5%) 25px 25px;
+}
+.contact_foto img {
+  width: 100%;
+}
+.contact__name {
+  text-align: center;
+  padding: 7px 15px; font-size: 20px;
+}
+.contact__value a {
+  color: #779d40;
+}
+.about_bg-color {
+  background: rgb(145 183 128);
+}
+.about__content {
+  font-size: 18px;
+}
+.skills__item {
+  margin: 7px 15px; 
+  padding: 7px 15px; 
+  border: 2px solid #779d40; 
+  border-radius: 3px;
+  -webkit-transition: all .5s; -moz-transition: all .5s; transition: all .5s;
+
+}
+.skills__item:hover {
+  background-color: #779d40; 
+  color: #fff; 
+  border: 2px solid rgb(145 183 128);
+  -webkit-transition: all .5s; -moz-transition: all .5s; transition: all .5s;
+}
+.experience__item,
+.education__item {
+  padding: 7px 15px;
+}
+.container-portfolio {
+  margin-top: 80px;
+}
+.portfolio_bg-color {
+  background: rgb(25,24,27);
+  background: linear-gradient(90deg, rgba(25,24,27,1) 0%, 
+  rgba(36,121,9,1) 54%, rgba(143,203,55,1) 100%);
+}
+.portfolio__foto {
+  text-align: center;
+}
+.portfolio__foto img {
+  background-color: #313131;
+}
+.portfolio__company-name {
+  color: #313131;
+}
+.langauges__title {
+    text-align: left;
+}
+.footer {
+  background-color: fff;
+  background-color: rgb(145 183 128);  
+  border-top: 1px solid #779d40;
+}
+.footer__item img {
+  width: 100px;
+  margin: 5px;
+}
+.footer .github {
+  color: #313131;
+  font-size: 30px;
 }
