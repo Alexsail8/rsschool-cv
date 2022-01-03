@@ -1,10 +1,47 @@
-@font-face{font-family:'MagistralC';font-style:normal;font-weight:400;src:url(../fonts/MagistralC/MagistralC.eot) format("embedded-opentype"),url(../fonts/MagistralC/MagistralC.woff) format("woff"),url(../fonts/MagistralC/MagistralC.ttf) format("truetype")}
-@font-face{font-family:'MyriadProRegular';font-style:normal;font-weight:400;src:url(../fonts/MyriadProRegular/MyriadProRegular.eot) format("embedded-opentype"),url(../fonts/MyriadProRegular/MyriadProRegular.woff) format("woff"),url(../fonts/MyriadProRegular/MyriadProRegular.ttf) format("truetype")}
-@font-face{font-family:'MyriadPro-Light';font-style:normal;font-weight:400;src:url(../fonts/MyriadPro-Light/MyriadPro-Light.eot) format("embedded-opentype"),url(../fonts/MyriadPro-Light/MyriadPro-Light.woff) format("woff"),url(../fonts/MyriadPro-Light/MyriadPro-Light.ttf) format("truetype")}
+@font-face{
+  font-family:'MagistralC';
+  font-style:normal;
+  font-weight:400;
+  src:url(../fonts/MagistralC/MagistralC.eot) format("embedded-opentype"),
+  url(../fonts/MagistralC/MagistralC.woff) format("woff"),
+  url(../fonts/MagistralC/MagistralC.ttf) format("truetype")
+}
+@font-face{
+  font-family:'MyriadProRegular';
+  font-style:normal;
+  font-weight:400;
+  src:url(../fonts/MyriadProRegular/MyriadProRegular.eot) format("embedded-opentype"),
+  url(../fonts/MyriadProRegular/MyriadProRegular.woff) format("woff"),
+  url(../fonts/MyriadProRegular/MyriadProRegular.ttf) format("truetype")
+}
+@font-face{
+  font-family:'MyriadPro-Light';
+  font-style:normal;
+  font-weight:400;
+  src:url(../fonts/MyriadPro-Light/MyriadPro-Light.eot) format("embedded-opentype"),
+  url(../fonts/MyriadPro-Light/MyriadPro-Light.woff) format("woff"),
+  url(../fonts/MyriadPro-Light/MyriadPro-Light.ttf) format("truetype")
+}
 
-body {margin: 0;}
+body {
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 40px 0;
+}
+.h2 {
+  margin-bottom: 15px;
+  font-family: 'MagistralC','MyriadProRegular','MyriadPro-Light',sans-serif;
+}
 .header {
   background-color: #1B1C1D;
+  margin-bottom: 40px;
 }
 .navigation {    
   display: -ms-flexbox;
@@ -37,3 +74,32 @@ body {margin: 0;}
   font-weight: normal;
   letter-spacing: 1px;
 }
+
+.contact__title {
+  text-align: center;
+}
+.contact__avatar {
+    box-shadow: rgb(67 84 43 / 40%) 5px 5px,
+     rgb(67 84 43 / 30%) 10px 10px,
+     rgb(67 84 43 / 20%) 15px 15px, 
+     rgb(67 84 43 / 10%) 20px 20px, 
+     rgb(67 84 43 / 5%) 25px 25px;
+}
+.contact_foto img {
+  width: 100%;
+}
+.contact__name {
+  text-align: center;
+  padding: 7px 15px; font-size: 20px;
+}
+.contact__value a {
+  color: #779d40;
+}
+
+
+
+
+
+
+
+
