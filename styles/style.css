@@ -39,6 +39,9 @@ a {
 section {
   padding: 40px 0;
 }
+.h1, .h2 {
+  font-size: 1.75rem;
+}
 .h2, .h3 {
   margin-bottom: 15px;
   text-align: center; 
