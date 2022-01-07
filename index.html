@@ -50,13 +50,13 @@
 			</nav>
 		</header>
 		<main class="main">
-			<div class="container-fluid g-0">
+			<div class="container-fluid p-0">
 				<div class="container">
 					<section class="contact" id="contact">
 						<div
 							class="row d-flex justify-content-around align-items-center align-self-stretch"
 						>
-							<div class="col-2 offset-md-1">
+							<div class="col-8 offset-1 col-sm-4 col-md-2 offset-md-1">
 								<div class="contact__avatar">
 									<figure class="contact_foto">
 										<img src="./images/avatar.jpg" alt="Alexander Nikitin" />
@@ -66,38 +66,38 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-4 offset-md-1">
+							<div class="col-10 offset-1 col-sm-4 col-md-2 offset-md-1">
 								<div class="contact__content">
 									<h3 class="contact__title h3">Contact info</h3>
 									<ul class="contact__list">
 										<li class="contact__item">
-											<span class="contact__key"
-												><i class="bi bi-geo-alt-fill"></i> Location:
+											<span class="contact__key">
+												<i class="bi bi-geo-alt-fill"></i> Location:
 											</span>
 											<span class="contact__value">Russia, Moscow</span>
 										</li>
 										<li class="contact__item">
-											<span class="contact__key"
-												><i class="bi bi-phone-fill"></i> Phone:</span
-											>
-											<span class="contact__value"
-												><a href="tel:+79099166421">+7 909 916 64 21</a></span
-											>
+											<span class="contact__key">
+												<i class="bi bi-phone-fill"></i> Phone:
+											</span>
+											<span class="contact__value">
+												<a href="tel:+79099166421">+7 909 916 64 21</a>
+											</span>
 										</li>
 										<li class="contact__item">
-											<span class="contact__key"
-												><i class="bi bi-envelope-fill"></i> e-mail:</span
-											>
-											<span class="contact__value"
-												><a href="mailto:alexnik.88kam@gmail.com"
+											<span class="contact__key">
+												<i class="bi bi-envelope-fill"></i> e-mail:
+											</span>
+											<span class="contact__value">
+												<a href="mailto:alexnik.88kam@gmail.com"
 													>alexnik.88kam@gmail.com</a
 												>
 											</span>
 										</li>
 										<li class="contact__item">
-											<span class="contact__key"
-												><i class="bi bi-github"></i> GitHub:</span
-											>
+											<span class="contact__key">
+												<i class="bi bi-github"></i> GitHub:
+											</span>
 											<span class="contact__value">
 												<a href="https://github.com/Alexsail8"
 													>https://github.com/Alexsail8</a
@@ -105,17 +105,17 @@
 											</span>
 										</li>
 										<li class="contact__item">
-											<span class="contact__key"
-												><i class="bi bi-telegram"></i> Telegram:</span
-											>
+											<span class="contact__key">
+												<i class="bi bi-telegram"></i> Telegram:
+											</span>
 											<span class="contact__value">
 												<a href="https://t.me/AlexNkitn">@AlexNkitn</a>
 											</span>
 										</li>
 										<li class="contact__item">
-											<span class="contact__key"
-												><i class="bi bi-discord"></i> Discord:</span
-											>
+											<span class="contact__key">
+												<i class="bi bi-discord"></i> Discord:
+											</span>
 											<span class="contact__value">
 												<a href="https://discord.com/"
 													>Alex Nikitin(@Alexsail8)</a
@@ -130,7 +130,7 @@
 					</section>
 				</div>
 			</div>
-			<div class="container-fluid g-0 about_bg-color">
+			<div class="container-fluid p-0 accent_bg-color">
 				<div class="container">
 					<section class="about" id="about">
 						<h1 class="about__title h1">About me</h1>
@@ -152,7 +152,7 @@
 					</section>
 				</div>
 			</div>
-			<div class="container-fluid g-0">
+			<div class="container-fluid p-0">
 				<div class="container">
 					<section class="skills" id="skills">
 						<h2 class="skills__title h2">Skills</h2>
@@ -209,14 +209,14 @@
 					</section>
 				</div>
 			</div>
-			<div class="container-fluid g-0">
+			<div class="container-fluid p-0">
 				<div class="container">
 					<div
 						class="row d-flex justify-content-around align-items-center align-self-stretch"
 					>
 						<div class="col">
 							<div class="row">
-								<div class="col about_bg-color">
+								<div class="col accent_bg-color">
 									<section class="experience" id="experience">
 										<h3 class="experience__title h3">Experience</h3>
 										<div class="d-flex justify-content-between">
@@ -259,7 +259,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid g-0 portfolio_bg-color container-portfolio">
+			<div class="container-fluid p-0 portfolio_bg-color container-portfolio">
 				<div class="container">
 					<section class="portfolio" id="portfolio">
 						<h3 class="portfolio__title h3">Potrfolio</h3>
@@ -285,30 +285,27 @@
 					</section>
 				</div>
 			</div>
-			<div class="container-fluid g-0">
+			<div class="container-fluid p-0">
 				<div class="container">
 					<section class="codeExample" id="codeExample">
 						<h3 class="codeExample__title h3">Code Example</h3>
 						<div class="row">
 							<div class="col">
 								<div class="codeExample__content">
-									<pre>
-										<code>
-											function totalAmount(n) {
-												if (n == 1) return 1;
-												return n + totalAmount(n - 1);
-											}
-
-											alert( totalAmount(140) );
-										</code>
-									</pre>
+									<code
+										><br />
+										function totalAmount(n) {<br />
+										&nbsp; if (n == 1) return 1;<br />
+										&nbsp; return n + totalAmount(n - 1); <br />}<br />
+										alert( totalAmount(140) );
+									</code>
 								</div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
-			<div class="container-fluid g-0 color-light-line">
+			<div class="container-fluid p-0 color-light-line">
 				<div class="container">
 					<section class="langauges" id="langauges">
 						<h3 class="langauges__title h3">Langauges</h3>

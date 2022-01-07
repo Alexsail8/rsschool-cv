@@ -36,6 +36,9 @@ ul li {
 a {
   text-decoration: none;
 }
+.p-0 {
+  padding: 0;
+}
 section {
   padding: 40px 0;
 }
@@ -120,7 +123,7 @@ section {
 .contact__value a {
   color: #779d40;
 }
-.about_bg-color {
+.accent_bg-color {
   background: rgb(145 183 128);
 }
 .about__content {
@@ -176,4 +179,10 @@ section {
 .footer .github {
   color: #313131;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact__title  {
+    margin-top: 50px;
+  }
 }
